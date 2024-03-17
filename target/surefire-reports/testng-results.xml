@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-12T11:04:18 IST" name="Command line suite" finished-at="2024-03-12T11:04:45 IST" duration-ms="26987">
+    <groups>
+      <group name="smoke">
+        <method signature="loginTest.verifyWindowsTitle(java.util.LinkedHashMap)[pri:0, instance:org.epam.fsa.tests.loginTest@341b80b2]" name="verifyWindowsTitle" class="org.epam.fsa.tests.loginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-03-12T11:04:18 IST" name="Command line test" finished-at="2024-03-12T11:04:45 IST" duration-ms="26987">
+      <class name="org.epam.fsa.tests.loginTest">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:org.epam.fsa.tests.loginTest@341b80b2]" started-at="2024-03-12T11:04:18 IST" name="launchDriver" finished-at="2024-03-12T11:04:31 IST" duration-ms="12538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method signature="verifyWindowsTitle(java.util.LinkedHashMap)[pri:0, instance:org.epam.fsa.tests.loginTest@341b80b2]" started-at="2024-03-12T11:04:31 IST" name="verifyWindowsTitle" data-provider="getData" finished-at="2024-03-12T11:04:33 IST" duration-ms="2382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userName=Admin, passWord=admin123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWindowsTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.epam.fsa.tests.loginTest@341b80b2]" started-at="2024-03-12T11:04:33 IST" name="tearDown" finished-at="2024-03-12T11:04:35 IST" duration-ms="1498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:org.epam.fsa.tests.loginTest@341b80b2]" started-at="2024-03-12T11:04:35 IST" name="launchDriver" finished-at="2024-03-12T11:04:41 IST" duration-ms="6265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method signature="verifyWindowsTitle(java.util.LinkedHashMap)[pri:0, instance:org.epam.fsa.tests.loginTest@341b80b2]" started-at="2024-03-12T11:04:41 IST" name="verifyWindowsTitle" data-provider="getData" finished-at="2024-03-12T11:04:44 IST" duration-ms="2493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userName=Admin, passWord=test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWindowsTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.epam.fsa.tests.loginTest@341b80b2]" started-at="2024-03-12T11:04:44 IST" name="tearDown" finished-at="2024-03-12T11:04:45 IST" duration-ms="1403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.epam.fsa.tests.loginTest -->
+      <class name="org.epam.fsa.base.BaseTest">
+        <test-method is-config="true" signature="loadPropertiesFile()[pri:0, instance:org.epam.fsa.base.BaseTest@157632c9]" started-at="2024-03-12T11:04:18 IST" name="loadPropertiesFile" finished-at="2024-03-12T11:04:18 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPropertiesFile -->
+      </class> <!-- org.epam.fsa.base.BaseTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

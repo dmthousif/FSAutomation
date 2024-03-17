@@ -1,0 +1,9 @@
+org\epam\fsa\pages\loginPage.class
+org\epam\fsa\base\RetryAnalyzer.class
+org\epam\fsa\utils\CommonToAllPage.class
+org\epam\fsa\base\CustomTestListener.class
+org\epam\fsa\utils\ExcelReader.class
+org\epam\fsa\HandlingDropdownsExample.class
+org\epam\fsa\base\BaseTest.class
+org\epam\fsa\tests\loginTest.class
+org\epam\fsa\base\RetryListener.class
